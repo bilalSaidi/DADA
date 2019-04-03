@@ -1,0 +1,605 @@
+/*
+===========================================================
+                        General
+===========================================================
+*/
+
+html , body{
+    height: 100%;
+    position: relative;
+}
+
+body{
+  font-family: 'Open Sans' , 'Roboto Slab', serif;
+  
+}
+h3{
+  text-transform: uppercase;
+}
+
+
+
+/*
+===========================================================
+                        header
+===========================================================
+*/
+.navbar{
+  padding: 20px 0 ;
+  transition: all .5s ease-out;
+  width: 100%;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+  color: #fff;
+}
+.navbar-nav>li>a{
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.navbar-nav>li>a:hover,
+.navbar-nav>li.active a{
+  color: #11a0e1;
+  background-color: transparent;
+}
+
+.navbar-nav>li>a:focus{
+    background-color: transparent;
+}
+
+
+.dada-top-nav{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 7px 0 ;
+}
+
+
+.navbar-toggle{
+      border: 1px solid #00BCD4
+}
+.navbar-toggle .icon-bar{
+    background-color:  white;
+}
+
+
+.navbar-right{
+  margin-right: 0;
+}
+
+
+
+/*
+===========================================================
+                        Home
+===========================================================
+*/
+
+.home{
+    height: 100%;
+}
+
+.home-cover{
+  height: 100%;
+/*  background-image: url('../images/bg-home.jpg'); */
+
+  background-color: #7bb0e7;
+
+    background-image: url(https://kriesi.at/themes/enfold-one-page-agency/wp-content/uploads/sites/83/2018/10/hero-pattern.png), linear-gradient(to bottom right,#5a72fc,#fb4d4d);
+
+
+}
+
+.home-cover-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.home-cover-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.home-heading h3{
+  color: #fff;
+  margin: 30px 20px ;
+  font-weight: 400;
+  font-size: 44px;
+}
+
+/*
+===========================================================
+                        My FrameWork
+===========================================================
+*/
+
+/*  Buttons */
+
+.general-btn{
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0;
+  padding: 14px  26px ;
+}
+
+.btn-white{
+  color: #fff;
+  border-color: #fff;
+  transition: .5s all ease-out ;
+}
+
+.btn-white:hover , .btn-white:focus{
+  background-color: #fff;
+  color: #45474b;
+}
+
+
+.btn-blue{
+  color: #11a0e1;
+  border-color: #11a0e1;
+  transition: .5s all ease-out ;
+}
+
+.btn-blue:hover , .btn-blue:focus{
+  background-color: #11a0e1;
+  color: #fff;
+}
+
+/* Background Effect */
+
+.bg-parallax{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/*
+===========================================================
+                        Services
+===========================================================
+*/
+
+
+
+.Services-item{
+    cursor: pointer;
+}
+
+.content-box-title h3{
+  padding : 0 0 10px 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.content-box-underline{
+  width: 30px;
+  height: 3px;
+  background-color: #03a9f4;
+  margin: 0 auto;
+  margin-bottom:20px;
+}
+
+.Services-item{
+    margin-bottom: 40px;
+}
+
+.Services-item-icon {
+  float: left;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  padding: 20px 0 20px 0 ;
+  margin-right: 10px;
+  transition: .5s all ease-out;
+  color: #11a0e1;
+}
+
+.Services-item-icon:hover {
+  background-color: #03a9f4 ;
+  color: #fff;
+
+}
+
+.Services-item-heading h3{
+  font-weight: 600;
+  font-size: 16px;
+  color: #080809bf;
+}
+
+.Services-item-content{
+  color: #888;
+  font-size: 16px;
+}
+
+/*
+===========================================================
+                        About
+===========================================================
+*/
+
+.about{
+  height:  700px;
+}
+
+.about .content-box{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.content-box-outer{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content-box-inner  .content-box-title h3{
+    text-align: left;
+    margin-left:  20px;
+}
+
+.about .content-box-underline{
+  margin: 0 ;
+  margin-left:  20px;
+  margin-bottom: 30px;
+}
+
+.content-box-inner p {
+
+  margin: 20px;
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.content-box-inner .btn {
+  margin: 0;
+  margin-left:  20px;
+}
+
+
+.bg-right{
+  background-image: url('../images/bg-about.jpg');
+  width: 60%;
+  height: 100%;
+  float: right;
+  border-top: solid 700px transparent;
+  border-left: 100px solid white;
+
+}
+
+
+/*
+===========================================================
+                        Work
+===========================================================
+*/
+
+
+
+.row.workImg  .col-md-3{
+  padding-left: 0 ;
+  padding-right: 0 ;
+}
+
+.row.workImg  .col-md-3{
+    overflow: hidden;
+}
+
+.row.workImg  .col-md-3 img{
+    transition: all .5s ease-out ;
+}
+
+.row.workImg  .col-md-3 img:hover{
+  transform: scale(1.5);
+}
+
+/*
+===========================================================
+                        ourTeam
+===========================================================
+*/
+
+.ourTeam .teamMember {
+  margin: auto 10px;
+  text-align: center;
+}
+
+.ourTeam .teamMember h4{
+  font-weight: bold;
+}
+
+.ourTeam .teamMember p {
+  color: #03a9f4;
+}
+
+.ourTeam .teamMember ul li {
+  display: inline-block;
+  margin: auto 10px;
+  font-size: 18px;
+}
+
+.ourTeam .teamMember ul li i {
+  cursor: pointer;
+}
+
+.ourTeam .teamMember ul li:hover{
+  color: #03a9f4;
+}
+
+/*
+===========================================================
+                        testiMonials
+===========================================================
+*/
+
+.testiMonials{
+  margin-top: 40px;
+  background-image:  url("../images/bg-testimonials.jpg");
+  color: #fff;
+  text-align: center;
+
+  background-color: #00ccc4;
+
+  background-image: url(https://kriesi.at/themes/enfold-one-page-agency/wp-content/uploads/sites/83/2018/10/hero-pattern.png),
+      linear-gradient(45deg,#00ccc4,#69b2e8);
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  color: #fff;
+}
+
+.content-box-title{
+  padding: 20px 0px;
+}
+
+.testiMonialsClient{
+  margin: 20px auto;
+}
+
+.testiMonial{
+  margin: 40px auto;
+}
+
+.testiMonialsClient .testiMonial img{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.testiMonialWords p
+{
+  padding: 0 30px 10px ;
+  margin: 15px  auto;
+  font-size:19px;
+  font-family: -webkit-body;
+  text-align: center;
+}
+
+
+
+
+/*
+===========================================================
+                        ourPrice
+===========================================================
+*/
+
+.ourPrice .plan{
+  border: 3px solid #34c6d3 ;
+  text-align: center;
+  padding: 60px 0;
+
+margin: 80px 0;
+}
+
+.ourPrice .plan .plan-title{
+    background-color: #34c6d3;
+    color: white;
+    text-transform: uppercase;
+    padding: 13px 10px;
+    width: 93px;
+    height: 44px;
+    margin: auto;
+}
+
+.ourPrice .plan .plan-price{
+  margin: 20px 0;
+  font-size: 50px;
+  color: #41464b;
+  font-weight: bold;
+}
+.ourPrice .plan .general-btn{
+  padding: 7px 34px;
+}
+
+.ourPrice .plan .plan-option{
+  margin: 40px 0 ;
+}
+.ourPrice .plan .plan-option li{
+  line-height: 1.8;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #888;
+}
+
+.ourPrice .plan_Enterprise{
+  background-color: #34c6d3;
+  color: white;
+  transform: scale(1.25);
+  margin-left: 30px;
+  margin-right: 30px
+}
+.ourPrice .plan_Enterprise .plan-title{
+  background-color: white;
+  width: 106px;
+  color: #34c6d3 ;
+}
+.ourPrice .plan_Enterprise .plan-option li{
+  color: white;
+  font-size: 16px;
+}
+
+
+/*
+===========================================================
+                        stats
+===========================================================
+*/
+
+.stats{
+  background-image: url("../images/bg-stats.jpg");
+  color: #fff;
+}
+
+.stats .cover-stat{
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.stats .stat{
+  margin: 80px 0 ;
+  text-align: center;
+}
+
+.stats .stat i {
+  color: #34c6d3 ;
+}
+
+.stats .stat h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+.stats .stat{
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+/*
+===========================================================
+                        footer
+===========================================================
+*/
+
+
+.footer{
+  margin-top: 40px;
+  
+  background-image: url(https://kriesi.at/themes/enfold-one-page-agency/wp-content/uploads/sites/83/2018/10/hero-pattern.png),
+                    linear-gradient(#bdc3c7 ,#2c3e50);
+  padding-top: 30px;
+  border-top: 5px solid rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+/*
+===========================================================
+                        contact
+===========================================================
+*/
+
+.contact{
+    font-size: 16px;
+}
+
+.contact .Headquarters{
+    margin: 40px 0;
+}
+
+.contact .socialMedia{
+  margin-top: 20px;
+}
+
+.contact .socialMedia li  {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.contact .socialMedia li i {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact .socialMedia li i:hover{
+  color: #34c6d3 ;
+}
+
+.contact .formSend input , .contact .formSend textarea{
+  background-color: transparent;
+  margin: 20px 0;
+  border-radius: 0;
+  color: #fff;
+}
+ .contact .formSend textarea{
+   height: 106px;
+   max-height: 106px;
+   min-height: 106px;
+ }
+
+ .contact .formSend input[type="submit"]:hover{
+   background-color: #fff;
+   color: #888;
+ }
+
+/*
+===========================================================
+                        copyright
+===========================================================
+*/
+
+.copyright{
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  margin-top: 60px;
+  font-size: 16px;
+}
+
+.copyright .links li{
+  display: inline-block;
+
+}
+
+.copyright .links li a{
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.copyright .links li a:hover{
+  color: #34c6d3 ;
+}
+
+.copyright .links a::after{
+  content: "/";
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 3px;
+
+}
+
+.copyright .links li:last-child  a::after{
+  content: "";
+}
+
+

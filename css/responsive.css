@@ -1,0 +1,119 @@
+
+/*  Large devices Desktops   */
+
+@media (min-width:1200px)   {
+    /*
+        Remarque : OK
+    */
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) and (max-width:1199px)  {
+
+  /* Menu navbar */
+  .navbar-nav>li{
+    margin: 0px -3px ;
+  }
+
+  .ourPrice .plan_Enterprise{
+    transform: scale(1);
+  }
+
+  /*
+    Remarque :   OK
+  */
+
+
+
+}
+
+
+
+/* Small devices Tablets */
+@media (min-width:768px) and (max-width:991px)  {
+
+  .ourPrice .plan_Enterprise{
+    transform: scale(1);
+  }
+  .navbar{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px  0px ;
+  }
+  .Services-item{
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  .Services-item-heading h3{
+    text-align: center;
+  }
+  .Services-item-content {
+    margin-left: 0px;
+  }
+  .Services-item-icon {
+     float: none;
+     width: 40px;
+     height: 40px;
+     padding: 0;
+     margin: auto;
+     color: #11a0e1;
+   }
+   .Services-item-icon:hover {
+     background-color: white ;
+     color: #11a0e1;
+
+   }
+
+
+
+   .stat-item{
+     margin-bottom: 40px;
+   }
+
+}
+
+/*  Extra small devices  */
+@media (max-width:767px) {
+  .ourPrice .plan_Enterprise{
+    transform: scale(1);
+  }
+  .navbar{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px  0px ;
+  }
+  .bg-right {
+    height: 350px;
+    border-top: 0;
+    border-left: 0;
+    width: 100%;
+  }
+  .about .content-box{
+    width: 100%;
+    height: 350px;
+  }
+
+
+}
+
+/* braek point 1  Extra small device  */
+@media (max-width:480px) {
+
+  .ourPrice .plan_Enterprise{
+    transform: scale(1);
+  }
+
+  .copyright .links li a{
+    font-size: 10px;
+  }
+  .testiMonialWords p{
+    font-size: 16px;
+  }
+}
+/* break point 2  Extra small device */
+@media (max-width:320px) {
+
+  .testiMonialWords p{
+    font-size: 14px;
+  }
+}
